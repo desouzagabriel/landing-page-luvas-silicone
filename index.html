@@ -6,34 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta author="Gabriel Júnior de Souza">
-    <title>Luvas de Silicone / Magic Cleaner 2.0</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="INDEX,FOLLOW">
 
+    <title>Luvas Magic Cleaner 2.0</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/glove.png">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="loader"></div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="app">
         <div class="row">
 
-            <!-- SESSÃO PRINCIPAL -->
-            <div id="principal" class="col-lg-12 text-center pt-5">
-                <h2 class="font-weight-bold">IMAGINE...</h2>
-                <h5>SEU DIA A DIA <b>MAIS SIMPLES</b></h5>
-                <h1 class="font-weight-bold">LUVAS MAGIC CLEANER 2.0</h1>
+            <video autoplay muted loop id="myVideo">
+                <source src="video/video-novo.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+
+            <div class="content">
+                <!-- SESSÃO PRINCIPAL -->
+                <div id="principal" class="col-lg-12 text-center">
+                    <h2 class="">IMAGINE...</h2>
+                    <h5>SEU DIA A DIA <b>MAIS SIMPLES</b></h5>
+                    <h1 class="font-weight-bold">LUVAS MAGIC CLEANER 2.0</h1>
+                    <a href="https://enovidades.com/products/luvasmagiccleaner" target="_blank"
+                        rel="noopener noreferrer">
+                        <button class="btn btn-danger mt-3">COMPRAR AGORA</button>
+                    </a>
+                </div>
             </div>
 
             <!-- SESSÃO  TEXTO PRINCIPAL -->
-            <div id="texto-principal" class="col-lg-12 p-5">
+            <div id="texto-principal" class="col-lg-12 pt-5">
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2">
                         <div class="row">
-                            <img class="col-lg-6 col-12" src="img/img-luvas.png" alt="Luvas Magic Cleaner" title="Luvas Magic Cleaner">
-                            <div class="col-lg-6 col-12 mt-5">
-                                <p>Uma solução verdadeiramente simples, mas totalmente inovadora para facilitar a sua vida!
+                            <img class="col-lg-6 col-6" src="img/img-luvas.png" alt="Luvas Magic Cleaner"
+                                title="Luvas Magic Cleaner">
+                            <div class="col-lg-6 col-6 mt-5">
+                                <p class="mt-5 font-weight-bold">
+                                    Uma solução verdadeiramente simples, mas totalmente inovadora para
+                                    facilitar a sua vida!
                                 </p>
                             </div>
                         </div>
@@ -50,53 +72,263 @@
             <div id="video" class="col-lg-12 text-center p-5">
                 <h5>Descubra porque as Luvas Magic Cleaner 2.0 é o acessório de cozinha número 1 do mundo!
                 </h5>
-                <video class="col-lg-4 p-2 mt-3 rounded border border-info" controls>
-                    <source src="video/luva-silicone-propaganda.mp4" type="video/mp4">
+                <video class="col-lg-8 p-2 mt-3  " controls>
+                    <source src="video/video-novo.mp4" type="video/mp4">
                     Your browser does not support HTML5 video.
                 </video>
+                <br>
+                <a href="https://enovidades.com/products/luvasmagiccleaner" target="_blank" rel="noopener noreferrer">
+                    <button class="btn btn-danger mt-3">SIM, EU QUERO!</button>
+                </a>
             </div>
 
             <!-- SESSÃO CARACTERISTICAS -->
-            <div id="caracteristicas" class="col-lg-12 text-center pt-5 font-weight-bold">
-                <h3 class="font-weight-bold">CHEGA DE ESTRESSE NA COZINHA</h3>
-                <p class="mb-5">Não passe mais trabalhos com luvas frágeis e <br> que dificultam o manuseio dos itens na limpeza
+            <div id="caracteristicas" class="col-lg-12 text-center pb-5 pt-5 font-weight-bold">
+                <h3 class="font-weight-bold">CHEGA DE ESTRESSE NA COZINHA!</h3>
+                <p class="mb-5">Não passe mais trabalhos com luvas frágeis e <br> que dificultam o manuseio dos itens na
+                    limpeza
                 </p>
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2">
                         <div class="row">
                             <div id="alta-durabilidade" class="col-lg-6 mt-5">
-                                <h4 class="font-weight-bold">ALTA DURABILIDADE</h4>
+                                <h4 class="font-weight-bold mt-5">ALTA DURABILIDADE</h4>
                                 <hr>
-                                <p>Feito de silicone de alta qualidade e favorável ao meio ambiente. Também é classificado como silicone SGS, o que significa que é seguro usar com alimentos.</p>
+                                <p>Feito de silicone de alta qualidade e favorável ao meio ambiente. Também é
+                                    classificado como silicone SGS, o que significa que é seguro usar com alimentos.</p>
                             </div>
-                            <img class="col-lg-6 rounded-circle" src="img/img-durabilidade.jpg" alt="">
+                            <img class="col-lg-4 offset-lg-2 rounded-circle" src="img/img-cerdas.jpg" alt="">
                         </div>
                     </div>
 
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="row">
+                            <img id="img-cerdas-id" class="col-lg-4 rounded-circle" src="img/img-durabilidade.jpg"
+                                alt="">
 
+                            <div id="alta-durabilidade" class="col-lg-6 offset-lg-2 mt-5">
+                                <h4 class="font-weight-bold mt-5">CERDAS EFICIENTES</h4>
+                                <hr>
+                                <p>Ela foi projetado para espumar e esfregar com eficácia, protegendo as mãos e é
+                                    anti-arranhões.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <!-- SESSÃO QUALIDADE -->
+            <div id="qualidade" class="col-lg-12 text-center pt-5">
+                <h3 class="font-weight-bold">VOCÊ SÓ TEM A GANHAR!</h3>
+                <a href="https://enovidades.com/products/luvasmagiccleaner" target="_blank" rel="noopener noreferrer">
+                    <button class="btn btn-danger mt-3">COMPRAR AGORA</button>
+                </a>
+                <div id="app" class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="row">
+                            <div class="card col-lg-4 offset-lg-0 col-10 offset-1 mt-5" style="width: 18rem;"
+                                v-for="titulo in titulos">
+                                <img class="card-img-top rounded-circle" :src="'img/' + titulo.link"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">{{titulo.titulonome}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- IMAGEM DE ONDA DIVISORIA -->
+            <div id="img-onda-rosa" class="w-100 mt-5">
+                <img class="w-100" src="img/bg-onda-rosa.png" alt="" height="150">
+            </div>
+
+            <!-- PRODUTOS -->
+            <div id="produtos" class="col-lg-12 text-center mt-5">
+                <h4>ONDE E COMO COMPRAR MINHAS LUVAS MAGIC CLEANER 2.0?</h4>
+                <p class="col-lg-8 offset-lg-2 mt-5">
+                    Ela só é vendida pela internet. Não aceite imitações, pois as verdadeiras Luvas Magic Cleaner 2.0
+                    são
+                    fabricadas com plástico resistente de alta higiene e durabilidade. Produto 100% testado, aprovado e
+                    recomendado.
+                </p>
+                <div class="row" id="app">
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="row">
+                            <div class="card col-lg-4 offset-lg-0 col-10 offset-1 mt-5 " style="width: 18rem;"
+                                v-for="produto in produtos">
+                                <div class="card-body ">
+                                
+                                    <img class="card-img-top" :src="'img/' + produto.link">
+                                    <p class="card-text text-center mt-2">{{produto.produtopreco}}</p>
+                                    <hr>
+                                    <p class="text-center">ESCOLHA SEU PACOTE/COMBO:</p>
+
+                                    <div class="col-lg-8 offset-lg-2 text-center border mb-1"
+                                        v-for="detalhe in produto.detalhebotoes">
+                                        <a class="col-lg-1 mt-3" v-bind:href="detalhe.link" target="_blank"
+                                            rel="noopener noreferrer" v-for="corluva in detalhe.cor">
+                                            <i class="fas fa-mitten" v-bind:style="{color: corluva.corluva}"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FALE CONOSCO -->
+            <div class="col-lg-12 mt-5 mb-5 text-center">
+                <h3>FALE CONOSCO</h3>
+                <a href="https://enovidades.com/products/luvasmagiccleaner" target="_blank" rel="noopener noreferrer">
+                    <button class="btn btn-danger mt-3">COMPRAR AGORA</button>
+                </a>
+                <h5 class="col-lg-8 col-12 offset-lg-2 mt-5">
+                    Se você ainda tiver dúvidas sobre as Luvas Magic Cleaner 2.0, de como ela é fabricada, sua
+                    funcionalidade, entre em contato conosco através do nosso email:
+                    <a href="mailto:contato@enovidades.com">contato@enovidades.com</a>
+                </h5>
+            </div>
+
+            <!-- RODAPE ICONES-->
+            <div id="fale-conosco" class="col-lg-12 col-12 p-5 text-center">
+                <img class="col-12 col-lg-6" src="img/iconesrodape.png" alt="iconesrodape">
+            </div>
+
+            <!-- FOOTER -->
+            <footer class="col-lg-12 col-12 text-center text-dark p-3 font-weight-bold">© 2019 Copyright | LUVAS MAGIC
+                CLEANER 2.0 | Todos os direitos reservados</footer>
         </div>
 
         <!-- SCRIPTS DA PÁGINA -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 
         <!-- INICIALIZANDO O LOADER -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script type="text/javascript">
-            $(window).load(function() {
+            $(window).load(function () {
                 $(".loader").fadeOut("slow");
             });
         </script>
 
-        <!--Inicializando AOS-->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
-            AOS.init();
+            new Vue({
+                el: '#app',
+                data: {
+                    titulos: [{ titulonome: 'Ideal para uso em diversos materiais', link: 'img-diversos.jpg' },
+                    { titulonome: 'Diversas aplicações', link: 'img-cachorro.jpg' },
+                    { titulonome: 'Suporta temperaturas extremas (-20ºC - +200ºC)', link: 'img-forno.jpg' },
+                    { titulonome: 'Fácil de limpar', link: 'img-facil-limpar.jpg' },
+                    { titulonome: 'Textura externa que não escorrega', link: 'img-carro.jpg' },
+                    { titulonome: 'Impermeável e resistente', link: 'img-janela-carro.jpg' }
+                    ],
+
+                    produtos: [
+                        {
+                            produtopreco: '1 LUVA POR 79,97', link: 'img-produto-azul.png', economia: '', detalhebotoes: [
+                                { link: "https://enovidades.com/25709248605/checkouts/441a7e20bde331d8a12505c89114c51b", cor: [{ corluva: "#72AACB" }] },
+                                { link: "https://enovidades.com/25709248605/checkouts/4c5ab34431a766c6e427415908fab98f", cor: [{ corluva: "#FFCBDF" }] },
+                                { link: "https://enovidades.com/25709248605/checkouts/45a3fe377d083c1999f0c881f4f88290", cor: [{ corluva: "#8B8584" }] }
+                            ]
+                        },
+                        {
+                            produtopreco: '3 LUVAS POR 59,97 cada / total: 179,94', link: 'img-produto-triple.png', economia: 'ECONOMIZE R$50', detalhebotoes: [
+                                {
+                                    link: "https://enovidades.com/25709248605/checkouts/3ffcee43b08fea5aae23a62ad0f433a5?discount=25OFFMAGICCLEANER",
+                                    cor: [
+                                        { corluva: "#72AACB" },
+                                        { corluva: "#72AACB" },
+                                        { corluva: "#72AACB" }
+                                    ]
+                                },
+                                {
+                                    link: "https://enovidades.com/25709248605/checkouts/dac10fe37b737cb4526510dad487a4ca?discount=25OFFMAGICCLEANER",
+                                    cor: [
+                                        { corluva: "#FFCBDF" },
+                                        { corluva: "#FFCBDF" },
+                                        { corluva: "#FFCBDF" }
+                                    ]
+                                },
+                                {
+                                    link: "https://enovidades.com/25709248605/checkouts/077a5644ebf8d41ab980f830edb9d2bf?discount=25OFFMAGICCLEANER",
+                                    cor: [
+                                        { corluva: "#8B8584" },
+                                        { corluva: "#8B8584" },
+                                        { corluva: "#8B8584" }
+                                    ]
+                                },
+                                {
+                                    link: "https://enovidades.com/25709248605/checkouts/018eaf870b3f8d9ed78c4a2026818df6?discount=25OFFMAGICCLEANER",
+                                    cor: [
+                                        { corluva: "#72AACB" },
+                                        { corluva: "#FFCBDF" },
+                                        { corluva: "#8B8584" }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            produtopreco: '2 LUVAS POR 69,57 cada / total: 139,16', link: 'img-produto-double.png', economia: 'ECONOMIZE R$20', detalhebotoes: [
+                                {
+                                    link: "https://enovidades.com/25709248605/checkouts/76a15fe51511a37ad076ec273dfc0296?discount=13OFFMAGICCLEANER",
+                                    cor: [
+                                        { corluva: "#72AACB" },
+                                        { corluva: "#72AACB" }
+                                    ]
+                                },
+                                {
+                                    link: "https://enovidades.com/25709248605/checkouts/4c5ab34431a766c6e427415908fab98f",
+                                    cor: [
+                                        { corluva: "#72AACB" },
+                                        { corluva: "#FFCBDF" }
+                                    ]
+                                },
+                                {
+                                    link: "https://enovidades.com/25709248605/checkouts/45a3fe377d083c1999f0c881f4f88290",
+                                    cor: [
+                                        { corluva: "#72AACB" },
+                                        { corluva: "#8B8584" }
+                                    ]
+                                },
+                                {
+                                    link: "https://enovidades.com/25709248605/checkouts/45a3fe377d083c1999f0c881f4f88290",
+                                    cor: [
+                                        { corluva: "#FFCBDF" },
+                                        { corluva: "#FFCBDF" }
+                                    ]
+                                },
+                                {
+                                    link: "https://enovidades.com/25709248605/checkouts/45a3fe377d083c1999f0c881f4f88290",
+                                    cor: [
+                                        { corluva: "#FFCBDF" },
+                                        { corluva: "#8B8584" }
+                                    ]
+                                },
+                                {
+                                    link: "https://enovidades.com/25709248605/checkouts/45a3fe377d083c1999f0c881f4f88290",
+                                    cor: [
+                                        { corluva: "#8B8584" },
+                                        { corluva: "#8B8584" }
+                                    ]
+                                }
+                            ]
+                        },
+                    ],
+                }
+            })
         </script>
 </body>
 
