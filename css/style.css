@@ -2,6 +2,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
 /* LOADER */
 
 .loader {
@@ -14,6 +15,7 @@
     background: url("../img/loader.gif") 50% 50% no-repeat rgb(249, 249, 249);
     opacity: 1.0;
 }
+
 
 /* VAR DE CORES */
 
@@ -46,6 +48,7 @@
     -webkit-transition: all 300ms ease-in-out;
 }
 
+
 /* HOVER INSIDE HOVER */
 
 .card:hover .card-text {
@@ -55,6 +58,7 @@
     transition: all 300ms ease-in-out;
     -webkit-transition: all 300ms ease-in-out;
 }
+
 
 /* FONTES DA PÁGINA */
 
@@ -72,17 +76,22 @@ h2 {
     text-shadow: 1px 1px #000;
 }
 
+
 /* BORDER */
 
 .border-info {
     border-color: var(--fourth-color) !important;
 }
 
+
 /* DIV GERAL */
 
-#img-onda, #texto-principal, #video {
+#img-onda,
+#texto-principal,
+#video {
     background-color: var(--main-color);
 }
+
 
 /* VIDEO E TEXTO */
 
@@ -101,6 +110,7 @@ h2 {
     height: 120%;
     padding: 20px;
 }
+
 
 /* DIV PRINCIPAL */
 
@@ -124,19 +134,22 @@ h2 {
     font-size: 5vh;
 }
 
-
 #texto-principal img {
     -ms-transform: rotate(-20deg);
     /* IE 9 */
     -webkit-transform: rotate(-20deg);
     /* Safari 3-8 */
     transform: rotate(-20deg);
-    
+}
+
+#texto-principal span {
+    font-size: 2.5vh !important;
 }
 
 #texto-principal p {
     font-size: 3.5vh !important;
 }
+
 
 /* DIV VIDEO */
 
@@ -144,7 +157,12 @@ h2 {
     font-size: 2.7vh;
 }
 
+
 /* DIV CARACTERISTICAS */
+
+#caracteristicas img {
+    height: 40vh;
+}
 
 #caracteristicas {
     background-color: var(--fourth-color)
@@ -162,6 +180,7 @@ h2 {
     color: whitesmoke;
 }
 
+
 /* DIV QUALIDADE */
 
 #qualidade {
@@ -172,18 +191,37 @@ h2 {
     background-color: #FFF;
 }
 
+
 /* FALE CONOSCO */
 
-#fale-conosco, footer {
+#fale-conosco,
+footer {
     background-color: var(--main-color);
     color: #FFF;
 }
+
 
 /* PRODUTOS */
 
 #produtos a {
     font-size: 2vh;
 }
+
+
+/* PERGUNTAS FREQUENTES */
+
+#perguntas-frequentes-sessao {
+    background-color: var(--third-color);
+}
+
+#perguntas-frequentes-sessao h3 {
+    color: var(--fifth-color);
+}
+
+#perguntas-frequentes-sessao .card-body {
+    background-color: white !important;
+}
+
 
 /* RESPONSIVO PARA CELULAR */
 
@@ -219,6 +257,9 @@ h2 {
         font-size: 2.7vh !important;
         text-align: center;
         margin-top: 0 !important;
+    }
+    #texto-principal span {
+        font-size: 2vh !important;
     }
     #texto-principal img {
         -ms-transform: rotate(0deg);
