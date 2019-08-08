@@ -130,6 +130,7 @@ h2 {
     -webkit-transform: rotate(-20deg);
     /* Safari 3-8 */
     transform: rotate(-20deg);
+    
 }
 
 #texto-principal p {
@@ -178,6 +179,7 @@ h2 {
 }
 
 /* PRODUTOS */
+
 #produtos a {
     font-size: 2vh;
 }

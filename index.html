@@ -156,13 +156,13 @@
                 </p>
                 <div class="row" id="app">
                     <div class="col-lg-10 offset-lg-1">
-                        <div class="row">
-                            <div class="card col-lg-4 offset-lg-0 col-10 offset-1 mt-5 " style="width: 18rem;"
+                        <div class="row ">
+                            <div class="card col-lg-4 offset-lg-0 col-10 offset-1 " style="width: 18rem;"
                                 v-for="produto in produtos">
-                                <div class="card-body ">
-                                
-                                    <img class="card-img-top" :src="'img/' + produto.link">
+                                <div class="card-body">
+                                    <img class="card-img-top" :src="'img/' + produto.link" >
                                     <p class="card-text text-center mt-2">{{produto.produtopreco}}</p>
+                                    <h4 class="card-text text-center mt-2 font-weight-bold">{{produto.total}}</h4>
                                     <hr>
                                     <p class="text-center">ESCOLHA SEU PACOTE/COMBO:</p>
 
@@ -238,14 +238,14 @@
 
                     produtos: [
                         {
-                            produtopreco: '1 LUVA POR 79,97', link: 'img-produto-azul.png', economia: '', detalhebotoes: [
+                            produtopreco: '1 LUVA POR', total: 'R$79,97', tamanho: "13vh", link: 'img-produto-azul.png', economia: '', detalhebotoes: [
                                 { link: "https://enovidades.com/25709248605/checkouts/441a7e20bde331d8a12505c89114c51b", cor: [{ corluva: "#72AACB" }] },
                                 { link: "https://enovidades.com/25709248605/checkouts/4c5ab34431a766c6e427415908fab98f", cor: [{ corluva: "#FFCBDF" }] },
                                 { link: "https://enovidades.com/25709248605/checkouts/45a3fe377d083c1999f0c881f4f88290", cor: [{ corluva: "#8B8584" }] }
                             ]
                         },
                         {
-                            produtopreco: '3 LUVAS POR 59,97 cada / total: 179,94', link: 'img-produto-triple.png', economia: 'ECONOMIZE R$50', detalhebotoes: [
+                            produtopreco: '3 LUVAS POR', total: 'R$59,97 cada / total: R$179,94', tamanho: "8vh", link: 'img-produto-triple.png', economia: 'ECONOMIZE R$50', detalhebotoes: [
                                 {
                                     link: "https://enovidades.com/25709248605/checkouts/3ffcee43b08fea5aae23a62ad0f433a5?discount=25OFFMAGICCLEANER",
                                     cor: [
@@ -281,7 +281,7 @@
                             ]
                         },
                         {
-                            produtopreco: '2 LUVAS POR 69,57 cada / total: 139,16', link: 'img-produto-double.png', economia: 'ECONOMIZE R$20', detalhebotoes: [
+                            produtopreco: '2 LUVAS POR', total: 'R$69,57 cada / total: R$139,16', tamanho: "13vh", link: 'img-produto-double.png', economia: 'ECONOMIZE R$20', detalhebotoes: [
                                 {
                                     link: "https://enovidades.com/25709248605/checkouts/76a15fe51511a37ad076ec273dfc0296?discount=13OFFMAGICCLEANER",
                                     cor: [
@@ -290,35 +290,35 @@
                                     ]
                                 },
                                 {
-                                    link: "https://enovidades.com/25709248605/checkouts/4c5ab34431a766c6e427415908fab98f",
+                                    link: "https://enovidades.com/25709248605/checkouts/358bbf1cd64aa0020b0e3c2d20d40f7d?discount=13OFFMAGICCLEANER",
                                     cor: [
                                         { corluva: "#72AACB" },
                                         { corluva: "#FFCBDF" }
                                     ]
                                 },
                                 {
-                                    link: "https://enovidades.com/25709248605/checkouts/45a3fe377d083c1999f0c881f4f88290",
+                                    link: "https://enovidades.com/25709248605/checkouts/239493a82678e0c3639b046c6b6750c9?discount=13OFFMAGICCLEANER",
                                     cor: [
                                         { corluva: "#72AACB" },
                                         { corluva: "#8B8584" }
                                     ]
                                 },
                                 {
-                                    link: "https://enovidades.com/25709248605/checkouts/45a3fe377d083c1999f0c881f4f88290",
+                                    link: "https://enovidades.com/25709248605/checkouts/282432fc633f2d3c8f8acb79855bd88d?discount=13OFFMAGICCLEANER",
                                     cor: [
                                         { corluva: "#FFCBDF" },
                                         { corluva: "#FFCBDF" }
                                     ]
                                 },
                                 {
-                                    link: "https://enovidades.com/25709248605/checkouts/45a3fe377d083c1999f0c881f4f88290",
+                                    link: "https://enovidades.com/25709248605/checkouts/6457d01e4fedeed922b5b2f4e5311ac5?discount=13OFFMAGICCLEANER",
                                     cor: [
                                         { corluva: "#FFCBDF" },
                                         { corluva: "#8B8584" }
                                     ]
                                 },
                                 {
-                                    link: "https://enovidades.com/25709248605/checkouts/45a3fe377d083c1999f0c881f4f88290",
+                                    link: "https://enovidades.com/25709248605/checkouts/474b158323ad9dab47bb4ae90d839e2e?discount=13OFFMAGICCLEANER",
                                     cor: [
                                         { corluva: "#8B8584" },
                                         { corluva: "#8B8584" }
