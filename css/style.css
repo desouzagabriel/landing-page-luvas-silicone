@@ -1,0 +1,140 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* LOADER */
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url("../img/loader.gif") 50% 50% no-repeat rgb(249, 249, 249);
+    opacity: 1.0;
+}
+
+
+/* VAR DE CORES */
+
+ :root {
+    --main-color: #FCACC9;
+    --second-color: #F5AB07;
+    --third-color: #9FE6DE;
+    --fourth-color: #68CFCB;
+    --fifth-color: #24719F;
+}
+
+
+/* FONTES DA PÁGINA */
+
+h1 {
+    color: whitesmoke;
+    text-shadow: 1.25px 1.25px #000;
+}
+
+h2 {
+    color: var(--second-color);
+    text-shadow: 1px 1px #000;
+}
+
+
+/* BORDER */
+
+.border-info {
+    border-color: var(--fourth-color) !important;
+}
+
+
+/* DIV GERAL */
+
+#principal,
+#img-onda,
+#texto-principal,
+#video {
+    background-color: var(--main-color);
+}
+
+
+/* DIV PRINCIPAL */
+
+#texto-principal img {
+    -ms-transform: rotate(-20deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-20deg);
+    /* Safari 3-8 */
+    transform: rotate(-20deg);
+}
+
+#texto-principal p {
+    font-size: 3.5vh !important;
+}
+
+
+/* DIV VIDEO */
+
+#video p {
+    font-size: 2.7vh;
+}
+
+
+/* DIV CARACTERISTICAS */
+
+#caracteristicas {
+    background-color: var(--fourth-color)
+}
+
+#caracteristicas h3 {
+    color: whitesmoke;
+}
+
+#caracteristicas h4 {
+    color: var(--fifth-color);
+}
+
+#caracteristicas p {
+    color: whitesmoke;
+}
+
+
+/* RESPONSIVO PARA CELULAR */
+
+@media(min-width:300px) and (max-width:1000px) {
+    #principal h1 {
+        font-size: 5vh;
+    }
+    #principal h2 {
+        font-size: 3.5vh;
+    }
+    #principal h5 {
+        font-size: 3.25vh;
+    }
+    #video h5 {
+        font-size: 2.75vh !important;
+    }
+    #texto-principal p {
+        font-size: 2.75vh !important;
+        text-align: center;
+    }
+    #texto-principal img {
+        -ms-transform: rotate(0deg);
+        /* IE 9 */
+        -webkit-transform: rotate(0deg);
+        /* Safari 3-8 */
+        transform: rotate(0deg);
+    }
+    #caracteristicas h3 {
+        font-size: 3vh;
+    }
+    #caracteristicas h4 {
+        font-size: 2.75vh;
+    }
+    p {
+        font-size: 2vh;
+    }
+    #alta-durabilidade {
+        margin-top: 0 !important;
+    }
+}
