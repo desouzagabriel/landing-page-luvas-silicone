@@ -121,7 +121,7 @@
             <div id="qualidade" class="col-lg-12 text-center pt-5">
                 <h3 class="font-weight-bold">VOCÊ SÓ TEM A GANHAR!</h3>
                 <a href="https://enovidades.com/products/luvasmagiccleaner" target="_blank" rel="noopener noreferrer">
-                    <button class="btn btn-danger mt-3">COMPRAR AGORA</button>
+                    <button class="btn btn-danger mt-3 col-lg-3">COMPRAR AGORA</button>
                 </a>
                 <div id="app" class="row">
                     <div class="col-lg-8 offset-lg-2">
@@ -160,7 +160,7 @@
                             <div class="card col-lg-4 offset-lg-0 col-10 offset-1 " style="width: 18rem;"
                                 v-for="produto in produtos">
                                 <div class="card-body">
-                                    <img class="card-img-top" :src="'img/' + produto.link" >
+                                    <img class="card-img-top" :src="'img/' + produto.link">
                                     <p class="card-text text-center mt-2">{{produto.produtopreco}}</p>
                                     <h4 class="card-text text-center mt-2 font-weight-bold">{{produto.total}}</h4>
                                     <hr>
@@ -181,16 +181,16 @@
             </div>
 
             <!-- FALE CONOSCO -->
-            <div class="col-lg-12 mt-5 mb-5 text-center">
+            <div  class="col-lg-12 mt-5 mb-5 text-center">
                 <h3>FALE CONOSCO</h3>
-                <a href="https://enovidades.com/products/luvasmagiccleaner" target="_blank" rel="noopener noreferrer">
-                    <button class="btn btn-danger mt-3">COMPRAR AGORA</button>
-                </a>
                 <h5 class="col-lg-8 col-12 offset-lg-2 mt-5">
                     Se você ainda tiver dúvidas sobre as Luvas Magic Cleaner 2.0, de como ela é fabricada, sua
                     funcionalidade, entre em contato conosco através do nosso email:
                     <a href="mailto:contato@enovidades.com">contato@enovidades.com</a>
                 </h5>
+                <a id="btn-fale-conosco" href="https://enovidades.com/products/luvasmagiccleaner" target="_blank" rel="noopener noreferrer">
+                    <button class="btn col-lg-3 btn-danger mt-3">COMPRAR AGORA</button>
+                </a>
             </div>
 
             <!-- RODAPE ICONES-->
@@ -281,7 +281,7 @@
                             ]
                         },
                         {
-                            produtopreco: '2 LUVAS POR', total: 'R$69,57 cada / total: R$139,16', tamanho: "13vh", link: 'img-produto-double.png', economia: 'ECONOMIZE R$20', detalhebotoes: [
+                            produtopreco: '2 LUVAS POR', total: 'R$69,57 cada total: R$139,16', tamanho: "13vh", link: 'img-produto-double.png', economia: 'ECONOMIZE R$20', detalhebotoes: [
                                 {
                                     link: "https://enovidades.com/25709248605/checkouts/76a15fe51511a37ad076ec273dfc0296?discount=13OFFMAGICCLEANER",
                                     cor: [
