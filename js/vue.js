@@ -41,7 +41,7 @@ new Vue({
         }],
 
         produtos: [{
-            produtopreco: '1 LUVA POR',
+            produtopreco: '1 PAR POR',
             real: 'R$79',
             centavo: ',97',
             texto: 'cada',
@@ -66,7 +66,7 @@ new Vue({
                 }]
             }]
         }, {
-            produtopreco: '3 LUVAS POR',
+            produtopreco: '3 PARES POR',
             real: 'R$59',
             centavo: ',97',
             tamanho: '8vh',
@@ -112,7 +112,7 @@ new Vue({
                 }]
             }]
         }, {
-            produtopreco: '2 LUVAS POR',
+            produtopreco: '2 PARES POR',
             real: 'R$69',
             centavo: ',57',
             tamanho: '8vh',
